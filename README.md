@@ -11,3 +11,8 @@ the files included are:
 3. four Arduino sketches for the 4 ATMEGA328P controllers, for controlling devices, means setting values of actuators and reading values from sensors; these programs interface via I2C protocol and messages the master code, execute commands and returns informations (e.g. values from sensors)
 
 To run the examples you need an Arduino Uno connected to a PC with Processing + at least one ATMEGA328P programmed as controller + some hardware to connect at the controller(s)
+
+This repository was made for PerSys 2016 at University of Rome la Sapienza - DIAG
+
+Homepage of the course:
+http://ichatz.me/index.php/Site/PervasiveSystems2016
