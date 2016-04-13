@@ -12,7 +12,7 @@ the files included are:
 
 To run the examples you need an Arduino Uno connected to a PC with Processing + at least one ATMEGA328P programmed as controller + some hardware to connect at the controller(s)
 
-This repository was created for PerSys 2016 course at University of Rome la Sapienza - DIAG
+This repository was created for Pervasive Systems 2016 course at University of Rome la Sapienza - DIAG
 
 Homepage of the course:
 http://ichatz.me/index.php/Site/PervasiveSystems2016
