@@ -8,6 +8,6 @@ the files included are:
 
 2. the Arduino Uno master code, that is an Arduino sketch, that contains all the code to interact with pc-app via USB and with 'room controllers' over I2C bus & protocol
 
-3. 4 Arduino sketches for the 4 ATMEGA328P controllers, for controlling devices, means setting values of actuators and reading values from sensors; these programs interface via I2C protocol and messages the master code, execute commands and returns informations (e.g. values from sensors)
+3. four Arduino sketches for the 4 ATMEGA328P controllers, for controlling devices, means setting values of actuators and reading values from sensors; these programs interface via I2C protocol and messages the master code, execute commands and returns informations (e.g. values from sensors)
 
 To run the examples you need an Arduino Uno connected to a PC with Processing + at least one ATMEGA328P programmed as controller + some hardware to connect at the controller(s)
