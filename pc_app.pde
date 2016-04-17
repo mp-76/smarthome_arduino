@@ -1176,8 +1176,7 @@ public void createInterfaceControls(ControlP5 cp5, House house)
          if(sens instanceof TemperatureSensor) //kind="TSENS"
          {
            //temperature calculation
-           float temperature = (sens.getValue()/2)-273; //273.15 rounded to 273 to have half degree variations
-           
+           float temperature = ((sens.getValue()-277)-273); //277 is the offset due to components and voltage tolerance, 273 is the scale factor form °K to °C
            
            //cp5.addNumberbox(sens.getName(),sens.getValue(),20,20+100*(j+k_at_exit),50,30)
            cp5.addNumberbox(sens.getName()+" temp[celsius]",temperature,20,20+100*(j+k_at_exit),50,30)
