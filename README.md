@@ -4,7 +4,7 @@ this is the repository for smarthome/homeautomation & arduino demo
 
 the files included are:
 
-1. the pc-app.pde that is a processing sketch with java code embedded to control the house model (lamps) and interact with the Arduino Uno v. R3 master via USB/Serial (UART)
+1. the pc_app.pde that is a processing sketch with java code embedded to control the house model (lamps) and interact with the Arduino Uno v. R3 master via USB/Serial (UART)
 
 2. the Arduino Uno master.ino code, that is an Arduino sketch, that contains all the code to interact with pc-app via USB and with controllers over I2C bus & protocol
 
